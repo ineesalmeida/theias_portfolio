@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: $color-background;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $color-background;
+
+    min-height: 100vh;
+}
+
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px

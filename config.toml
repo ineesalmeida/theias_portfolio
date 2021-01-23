@@ -1,0 +1,7 @@
+baseURL = "http://thheias.com/"
+defaultContentLanguage = "en"
+languageCode = "en-us"
+theme = "theias"
+title = "Theias"
+
+staticDir = ["static"]

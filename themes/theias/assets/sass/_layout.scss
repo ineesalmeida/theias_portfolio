@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    min-height: 100vh;
+    color: $color-background-text;
+    margin: auto;
+    max-width: 120rem;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__content {
+        color: inherit;
+    }
+
+    &:not(:last-of-type):after  {
+        content : "";
+        position: absolute;
+        bottom  : 0;
+        height  : 1rem;
+        border-radius: 99px;
+        width   : 50%;  /* or 100px */
+        border-bottom: 0.2rem solid $color-background-dark;
+    }
+}

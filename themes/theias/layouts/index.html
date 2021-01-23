@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+    {{ partial "head.html" . }}
+  <body>
+    {{ partial "_navbar.html" . }}
+    {{ partial "header.html" . }}
+    {{ partial "_about.html" . }}
+    {{ partial "_portfolio.html" . }}
+    {{ partial "_contacts.html" . }}
+  </body>
+
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var target = document.getElementById("header");
+      var element = document.getElementById("back-to-the-top"); 
+      if (window.scrollY > (target.offsetTop + target.offsetHeight)) {
+        element.classList.remove('hidden');
+      } else {
+        element.classList.add('hidden');
+      }
+    });
+  </script>
+</html>

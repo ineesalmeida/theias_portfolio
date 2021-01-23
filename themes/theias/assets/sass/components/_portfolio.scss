@@ -1,0 +1,25 @@
+.portfolio {
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        width: 30rem;
+        height: 30rem;
+        overflow: hidden;
+
+        & img {
+            object-fit: cover;
+            width: inherit;
+            height: inherit;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+}

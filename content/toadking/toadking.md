@@ -1,0 +1,3 @@
+Title: Toadking
+Data: 2020-01-18
+Description: The Yezdi Roadking was a motorcycle produced in India by Ideal Jawa Ltd, Mysore from 1978 to 1996. It was based on the CZ 250 motocross (type 980.5) ridden by Jaroslav Falta to the runner-up spot in the 1974 motocross world championship. It was sold under the brand name Yezdi. The bike won several Indian rallies and road races. The bike had a 250 cc engine with dual exhausts and a semi-automatic clutch and Jawa/CZ's trademark integrated gear shifter/kick-starter.

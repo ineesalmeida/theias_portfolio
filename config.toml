@@ -1,4 +1,4 @@
-baseURL = "http://thheias.com/"
+baseURL = "http://theias.netlify.app/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
 theme = "theias"

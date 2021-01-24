@@ -1,0 +1,100 @@
+<!DOCTYPE>
+<html>
+    <head>
+	<meta name="generator" content="Hugo 0.73.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theias</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://theias.netlify.app/style.main.min.72b9b6e68e6887395f7735d3b72e775ac7bb403d111433aa4ff1bd9fa5520916.css" integrity="sha256-crm25o5ohzlfdzXTty53Wse7QD0RFDOqT/G9n6VSCRY=" >
+</head>
+  <body>
+    <ul class="navbar">
+    <li class="navbar__item"><a href="#contacts">Contactos</a></li>
+    <li class="navbar__item"><a href="#portfolio">Portfolio</a></li>
+    <li class="navbar__item"><a href="#about">Sobre</a></li>
+    <li class='back-to-the-top hidden' id='back-to-the-top'><a href='#header'></a></li>
+</ul>
+    <div class="container" id="header">
+    <div class="header">
+        <h1 class="header__title">Afonso Theias</h1>
+        <img class="header__img" src="img/header.png" alt="header_picture">
+    </div>
+</div>
+    <div class="container" id="about">
+    <img class="about__img" src="img/about.jpg" alt="about_picture">
+    <div class="about__text">
+        <h1 class="about__title">Sobre</h1>
+        <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
+pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
+per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut 
+vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
+Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat 
+faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. 
+Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis. 
+Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus, 
+non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.
+        </p>
+    </div>
+</div>
+    <div class="container" id="portfolio">
+    <div class="portfolio">
+        <h1 class="portfolio__title">Portfolio</h1>
+        <div class="portfolio__cards">
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art1.jpg" alt="art1">
+            </div>
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art2.jpg" alt="art2">
+            </div>
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art3.jpg" alt="art3">
+            </div>
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art4.jpg" alt="art4">
+            </div>
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art5.jpg" alt="art5">
+            </div>
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art6.jpg" alt="art6">
+            </div>
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art7.jpg" alt="art7">
+            </div>
+            <div class="portfolio__card">
+                <img class="portfolio__card__img" src="img/art8.jpg" alt="art8">
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container" id="contacts">
+    <div class="contacts">
+        <h1 class="contacts__title">Contactos</h1>
+        <img class="contacts__img" src="img/contacts.png" alt="contacts_picture">
+    </div>
+</div>
+  </body>
+
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var target = document.getElementById("header");
+      var element = document.getElementById("back-to-the-top"); 
+      if (window.scrollY > (target.offsetTop + target.offsetHeight)) {
+        element.classList.remove('hidden');
+      } else {
+        element.classList.add('hidden');
+      }
+    });
+  </script>
+</html>

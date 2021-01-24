@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gritos on Theias</title>
+    <link>https://theias.netlify.app/grito/</link>
+    <description>Recent content in Gritos on Theias</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://theias.netlify.app/grito/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://theias.netlify.app/grito/grito/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theias.netlify.app/grito/grito/</guid>
+      <description>Title: Grito Data: 2020-01-20 Description: O Grito (em norueguês: Skrik) é uma série de quatro pinturas do norueguês Edvard Munch, 1893. A obra representa uma figura andrógina num momento de profunda angústia e desespero existencial. O plano de fundo é a doca do fiorde de Oslo (em Oslo) ao pôr-do-Sol. O Grito é considerado uma das obras mais importantes do movimento expressionista e adquiriu um estatuto de ícone cultural, a par da Mona Lisa de Leonardo da Vinci.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://theias.netlify.app/grito/grito/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/picasso/picasso/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/toadking/toadking/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/vaca/vaca/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/grito/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/picasso/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/toadking/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theias.netlify.app/vaca/</loc>
+  </url>
+  
+</urlset>

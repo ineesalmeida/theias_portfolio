@@ -1,35 +1,41 @@
 .header {
 
     width: 100%;
-    line-height: 6em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
+    &__title {
+        max-width: 40rem;
+        text-transform: uppercase;
+        z-index: 10;
+        margin-right: 5rem;
+    }
+
     & h1 {
+        line-height: 0.8em;
         font-size: 10rem;
         text-align: left;
 
         &::after {
             display: block;
             content: "";
-            height: 1rem;
-            width: 20rem;
-            margin-left: 1rem;
-            margin-top: 2rem;
+            height: 0.1em;
+            width: 2em;
+            margin-left: 0.1em;
+            margin-top: 0.2em;
             background-color: $color-background-text;
+            transition: all 1s ease-in-out;
+        }
+
+        &:hover::after {
+            width: 2.5em;
         }
     }
 
-    &__title {
-        text-transform: uppercase;
-        z-index: 10;
-    }
-
     &__img {
-        margin-top: -8rem;
-        min-height: 80vh;
+        min-height: 65rem;
         max-height: 100vh;
         z-index: 5;
     }
@@ -37,8 +43,45 @@
 
 @media only screen and (max-width: $bp-medium) {
 
-    .vignete-top{
-        height: 12rem;
-        background: linear-gradient(0deg, rgba(black,0) 0%, var(--background-color) 50%, var(--background-color) 100%);
+    .header{
+
+        & h1 {
+            font-size: 8rem;
+        }
+
+        &__title {
+            margin-right: 0;
+        }
+
+        &__img {
+            min-height: 40rem;
+        }
     }
 }  
+
+@media only screen and (max-width: $bp-small) {
+
+    .header{
+
+        &__img {
+            position: absolute;
+            opacity: 0.4;
+            right: 4rem;
+            min-height: 20rem;
+        }
+    }
+}  
+
+@media only screen and (max-width: $bp-smallest) {
+
+    .header{
+        & h1 {
+            font-size: 6rem;
+        }
+
+        &__img {
+            opacity: 0.3;
+        }
+    }
+}  
+

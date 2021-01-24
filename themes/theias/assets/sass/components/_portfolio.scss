@@ -4,10 +4,13 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     &__card {
-        width: 30rem;
+        min-width: 15rem;
+        max-width: 80rem;
         height: 30rem;
         overflow: hidden;
         margin: 0.2rem;
@@ -17,10 +20,41 @@
             width: inherit;
             height: inherit;
             transition: all 0.5s ease-in-out;
+            opacity: 1;
 
             &:hover {
-                opacity: 0.9;
+                opacity: 0.8;
             }
         }
     }
 }
+
+@media only screen and (max-width: $bp-large) {
+    .portfolio {
+        &__card {
+            height: 25rem;
+        }
+    }
+}  
+
+@media only screen and (max-width: $bp-medium) {
+    .portfolio {
+        &__card {
+            width: 49%;
+
+            & img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}  
+
+@media only screen and (max-width: $bp-smallest) {
+    .portfolio {
+        &__card {
+            width: 100%;
+            min-height: 33vh;
+        }
+    }
+}  

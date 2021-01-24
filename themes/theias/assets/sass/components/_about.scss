@@ -1,9 +1,49 @@
 .about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
 
     &__img {
         mix-blend-mode: darken;
-        float: left;
-        width: 33%;
-        margin-right: 3rem;
+        margin: 3rem;
+        max-width: 35%;
+    }
+
+    & p {
+        text-align: justify;
     }
 }
+
+@media only screen and (max-width: $bp-medium) {
+
+    .about{
+        &__img {
+            margin: 1rem;
+            margin-top: 8rem;
+            max-width: 45%;
+        }
+
+        & p {
+            overflow-y: scroll;
+            height: 70vh;
+        }
+    }
+}  
+
+@media only screen and (max-width: $bp-small) {
+
+    .about{
+        flex-wrap: wrap;
+        
+        &__img {
+            max-width: 100%;
+            margin-top: 1rem;
+        }
+
+        & p {
+            height: auto;
+        }
+    }
+}  

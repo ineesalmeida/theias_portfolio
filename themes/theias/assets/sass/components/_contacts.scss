@@ -2,7 +2,35 @@
 
     &__img {
         mix-blend-mode: darken;
-        width: 45%;
+        width: 50%;
         float: right;
+    }
+}
+
+.social {
+
+    margin-top: 6rem;
+    
+    &__icon {
+        height: 4rem;
+        width: 4rem;
+        color: black;
+        padding: 0.7rem;
+        display: inline;
+
+        & a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        & i {
+            color: inherit;
+            font-size: 3em;
+            transition: color 0.5s;
+
+            &:hover {
+                color: red;
+            }
+        }
     }
 }

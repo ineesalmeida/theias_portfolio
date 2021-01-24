@@ -80,7 +80,8 @@
 @media only screen and (max-width: $bp-small) {
     .navbar {
         &__item {
-            font-size: 1.5rem;
+            padding: 0.8rem 1.2rem;
+            font-size: 1.3rem;
         }
 
         .back-to-the-top {

@@ -8,12 +8,11 @@
     align-items: center;
 
     & h1 {
-        width: 50%;
         font-size: 10rem;
         text-align: left;
 
         &::after {
-            display: inline-block;
+            display: block;
             content: "";
             height: 1rem;
             width: 20rem;
@@ -29,8 +28,17 @@
     }
 
     &__img {
-        max-width: 80rem;
-        height: 90vh;
+        margin-top: -8rem;
+        min-height: 80vh;
+        max-height: 100vh;
         z-index: 5;
     }
 }
+
+@media only screen and (max-width: $bp-medium) {
+
+    .vignete-top{
+        height: 12rem;
+        background: linear-gradient(0deg, rgba(black,0) 0%, var(--background-color) 50%, var(--background-color) 100%);
+    }
+}  

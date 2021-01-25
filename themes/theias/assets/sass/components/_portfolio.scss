@@ -17,8 +17,8 @@
 
         & img {
             object-fit: cover;
-            width: inherit;
             height: inherit;
+            width: inherit;
             transition: all 0.5s ease-in-out;
             opacity: 1;
 
@@ -37,24 +37,13 @@
     }
 }  
 
-@media only screen and (max-width: $bp-medium) {
-    .portfolio {
-        &__card {
-            width: 49%;
-
-            & img {
-                height: 100%;
-                width: 100%;
-            }
-        }
-    }
-}  
-
-@media only screen and (max-width: $bp-smallest) {
+@media only screen and (max-width: $bp-small) {
     .portfolio {
         &__card {
             width: 100%;
-            min-height: 33vh;
+            min-height: 25vh;
+            height: auto;
+            max-height: 80vh;
         }
     }
 }  

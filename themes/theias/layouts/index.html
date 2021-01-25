@@ -10,7 +10,7 @@
   </body>
 
 
-  <script>
+  <script defer>
     window.addEventListener("scroll", function() {
       var target = document.getElementById("header");
       var element = document.getElementById("back-to-the-top"); 
@@ -21,4 +21,7 @@
       }
     });
   </script>
+  {{ $js := resources.Get "js/portfolio.js" }}
+  {{ $file := $js | resources.Minify }}
+  <script defer type="application/javascript" src="{{ $file.Permalink }}"></script>
 </html>

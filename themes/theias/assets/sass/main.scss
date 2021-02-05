@@ -2,10 +2,7 @@
 $color-background: {{ .Site.Params.colorPageBackground | default "#ccc" }} !default;
 $color-background-dark: {{ .Site.Params.colorPageBackgroundDark | default "#aaa" }} !default;
 $color-background-text: {{ .Site.Params.colorPageBackgroundText | default "#3d405b" }} !default;
-$color-primary: {{ .Site.Params.colorPrimary | default "#e3bfb8"}} !default;
-$color-primary-text: {{ .Site.Params.colorPrimaryText | default "#fff"}} !default;
-$color-secondary: {{ .Site.Params.colorSecondary | default "#aaa"}} !default;
-$color-secondary-text: {{ .Site.Params.colorSecondaryText | default "#aaa"}} !default;
+$color-navbar-text: {{ .Site.Params.colorPageNavbarText | default "#fff" }} !default;
 
 @import "base";
 @import "layout";

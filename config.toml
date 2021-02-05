@@ -3,6 +3,5 @@ defaultContentLanguage = "en"
 languageCode = "en-us"
 relativeURLs = true
 theme = "theias"
-title = "Theias"
 
 staticDir = ["static"]

@@ -1,34 +1,22 @@
 <div class="container" id="portfolio">
+    {{ with .Page.Resources.ByType "image" }}
+        <ul>
+        {{ range . }}
+        <li>{{ .Permalink }}</li>
+        {{ end }}
+        </ul>
+    {{ end }}
     <div class="portfolio">
-        <h1 class="portfolio__title">{{.Site.Data.texts.portfolio.title}}</h1>
+        <h1 class="portfolio__title">{{.Site.Data.content.portfolio.title}}</h1>
         <div class="portfolio__cards" id="portfolio-container">
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art1.jpg" alt="art1">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art2.jpg" alt="art2">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art3.jpg" alt="art3">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art4.jpg" alt="art4">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art5.jpg" alt="art5">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art6.jpg" alt="art6">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art7.jpg" alt="art7">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art8.jpg" alt="art8">
-            </div>
-            <div class="portfolio__card">
-                <img class="portfolio__card__img" src="img/art9.jpg" alt="art9">
-            </div>
+            {{ range .Site.Data.content.portfolio.items }}
+                <div class="portfolio__card">
+                    <img class="portfolio__card__img" src="img/{{.file}}" alt="{{.name}}">
+                    <div class="portfolio__card__description">
+                        <p>{{.description}}</p>
+                    </div>
+                </div>
+            {{ end }}
         </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
 <div class="container" id="contacts">
     <div class="contacts">
-        <h1 class="contacts__title">{{.Site.Data.texts.contacts.title}}</h1>
-        {{ range .Site.Data.texts.contacts.text}}
+        <h1 class="contacts__title">{{.Site.Data.content.contacts.title}}</h1>
+        {{ range .Site.Data.content.contacts.text}}
             <p class="contacts__text">{{.}}</p>
         {{ end }}
         <div class="social">
@@ -10,7 +10,7 @@
                     <i class="fas fa-envelope-square" title="Email" aria-label="Go to Email"></i>
                 </a>
             </div>
-            {{ range .Site.Data.texts.contacts.social_media}}
+            {{ range .Site.Data.content.contacts.social_media}}
             <div class="social__icon">
                 <a href="{{.url}}" target="_blank" rel="noreferrer">
                     <i class="{{.icon}}" title="Instagram" aria-label="Go to {{.name}}"></i>

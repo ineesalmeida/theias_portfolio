@@ -1,22 +1,22 @@
 <div class="container" id="contacts">
     <div class="contacts">
-        <h1 class="contacts__title">Contactos</h1>
-        <p class="contacts__text">Afonso Theias: Artista, Tatuador, Parvo</p>
-        <p class="contacts__text">Lisboa, Portugal</p>
-        <p class="contacts__text">+351 912345678</p>
-        <p class="contacts__text">afonso@theias.com</p>
+        <h1 class="contacts__title">{{.Site.Data.texts.contacts.title}}</h1>
+        {{ range .Site.Data.texts.contacts.text}}
+            <p class="contacts__text">{{.}}</p>
+        {{ end }}
         <div class="social">
             <div class="social__icon">
                 <a href="#" target="_blank" rel="noreferrer">
                     <i class="fas fa-envelope-square" title="Email" aria-label="Go to Email"></i>
                 </a>
-                <a href="#" target="_blank" rel="noreferrer">
-                    <i class="fab fa-instagram" title="Instagram" aria-label="Go to Instagram"></i>
-                </a>
-                <a href="#" target="_blank" rel="noreferrer">
-                    <i class="fab fa-linkedin" title="LinkedIn" aria-label="Go to LinkedIn"></i>
+            </div>
+            {{ range .Site.Data.texts.contacts.social_media}}
+            <div class="social__icon">
+                <a href="{{.url}}" target="_blank" rel="noreferrer">
+                    <i class="{{.icon}}" title="Instagram" aria-label="Go to {{.name}}"></i>
                 </a>
             </div>
+            {{ end }}
         </div>
     </div>
     <img class="contacts__img" src="img/contacts.png" alt="contacts_picture">

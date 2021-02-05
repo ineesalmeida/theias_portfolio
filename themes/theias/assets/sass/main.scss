@@ -1,8 +1,8 @@
 // HUGO variables
-$color-background: {{ .Site.Params.colorPageBackground | default "#ccc" }} !default;
-$color-background-dark: {{ .Site.Params.colorPageBackgroundDark | default "#aaa" }} !default;
-$color-background-text: {{ .Site.Params.colorPageBackgroundText | default "#3d405b" }} !default;
-$color-navbar-text: {{ .Site.Params.colorPageNavbarText | default "#fff" }} !default;
+$color-background: {{ .Site.Params.colorBackground | default "#ccc" }} !default;
+$color-background-dark: {{ .Site.Params.colorBackground | default "#aaa" }} !default;
+$color-background-text: {{ .Site.Params.colorMainText| default "#3d405b" }} !default;
+$color-navbar-text: {{ .Site.Params.colorNavbar | default "#fff" }} !default;
 
 @import "base";
 @import "layout";

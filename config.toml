@@ -5,3 +5,9 @@ relativeURLs = true
 theme = "theias"
 
 staticDir = ["static"]
+
+[params]
+colorBackground = "#ccc"
+colorMainText = "#3d405b"
+colorNavbar = "#fff"
+colorPrimary = "#aaa"

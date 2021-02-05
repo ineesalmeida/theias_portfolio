@@ -1,9 +1,10 @@
 .contacts {
+    width: 40%;
+    text-align: center;
 
     &__img {
         mix-blend-mode: darken;
-        width: 50%;
-        float: right;
+        width: 30rem;
     }
 }
 
@@ -24,12 +25,13 @@
         }
 
         & i {
-            color: inherit;
+            color: $color-background-text;
             font-size: 3em;
-            transition: color 0.5s;
+            transition: opacity 0.5s ease-in-out;
+            opacity: 1;
 
             &:hover {
-                color: red;
+                opacity: 0.6;
             }
         }
     }

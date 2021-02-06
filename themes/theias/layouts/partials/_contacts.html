@@ -1,23 +1,25 @@
 <div class="container" id="contacts">
     <div class="contacts">
-        <h1 class="contacts__title">{{.Site.Data.content.contacts.title}}</h1>
-        {{ range .Site.Data.content.contacts.text}}
-            <p class="contacts__text">{{.}}</p>
-        {{ end }}
-        <div class="social">
-            <div class="social__icon">
-                <a href="#" target="_blank" rel="noreferrer">
-                    <i class="fas fa-envelope-square" title="Email" aria-label="Go to Email"></i>
-                </a>
-            </div>
-            {{ range .Site.Data.content.contacts.social_media}}
-            <div class="social__icon">
-                <a href="{{.url}}" target="_blank" rel="noreferrer">
-                    <i class="{{.icon}}" title="Instagram" aria-label="Go to {{.name}}"></i>
-                </a>
-            </div>
+        <div class="contacts__text">
+            <h1 class="contacts__title">{{.Site.Data.content.contacts.title}}</h1>
+            {{ range .Site.Data.content.contacts.text}}
+                <p class="contacts__text__item">{{.}}</p>
             {{ end }}
+            <div class="social">
+                <div class="social__icon">
+                    <a href="mailto:{{.Site.Data.content.contacts.email}}" target="_blank" rel="noreferrer">
+                        <i class="fas fa-envelope-square" title="Email" aria-label="Go to Email"></i>
+                    </a>
+                </div>
+                {{ range .Site.Data.content.contacts.social_media}}
+                <div class="social__icon">
+                    <a href="{{.url}}" target="_blank" rel="noreferrer">
+                        <i class="{{.icon}}" title="Instagram" aria-label="Go to {{.name}}"></i>
+                    </a>
+                </div>
+                {{ end }}
+            </div>
         </div>
+        <img class="contacts__img" src="img/contacts.png" alt="contacts_picture">
     </div>
-    <img class="contacts__img" src="img/contacts.png" alt="contacts_picture">
 </div>

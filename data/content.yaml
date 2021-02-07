@@ -40,8 +40,8 @@ contacts:
   email: "afonso@theias.com"
   social_media:
     - name: "Instagram"
-      url: "#"
-      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/thhheias"
+      icon: "fas fa-dog"
     - name: "LinkedIn"
       url: "#"
       icon: "fab fa-linkedin"

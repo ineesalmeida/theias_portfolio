@@ -4,7 +4,7 @@ portfolio:
   title: "Portfolio"
   items:
     - name: "Arte 1"
-      file: "art1.jpg"
+      file: "ola.jpg"
       description: "Alguma coisa a dizer sobre isto"
     - name: "Arte 2"
       file: "art2.jpg"

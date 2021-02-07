@@ -7,7 +7,7 @@ theme = "theias"
 staticDir = ["static"]
 
 [params]
-colorBackground = "#ccc"
+colorBackground = "red"
 colorMainText = "#3d405b"
 colorNavbar = "#fff"
 colorPrimary = "#aaa"

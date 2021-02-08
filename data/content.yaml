@@ -1,4 +1,4 @@
-title: ""
+title: "Afonso Theias"
 
 portfolio:
   title: "Portfolio"
@@ -7,7 +7,7 @@ portfolio:
       file: "ola.jpg"
       description: "Alguma coisa a dizer sobre isto"
     - name: "Arte 2"
-      file: "art2.jpg"
+      file: "art1.jpg"
       description: "Alguma coisa a dizer sobre isto"
     - name: "Arte 3"
       file: "art3.jpg"
@@ -32,8 +32,8 @@ portfolio:
       description: "Alguma coisa a dizer sobre isto"
 
 about:
-  title: "Sobre"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor. Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis. Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus, non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus."
+  title: "Projectos"
+  text: "! Music - Pato Velho (@pato.velho) ! Poetry - Hispérico (@hisperic_) ! Art - Thhheias (@thhheias)"
 
 contacts:
   title: "Contactos"
@@ -41,10 +41,10 @@ contacts:
   social_media:
     - name: "Instagram"
       url: "https://www.instagram.com/thhheias"
-      icon: "fas fa-dog"
+      icon: "fas fa-instagram"
     - name: "LinkedIn"
       url: "#"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-band-aid"
   text:
     - Afonso Theias
     - Artista, Tatuador, Parvo
